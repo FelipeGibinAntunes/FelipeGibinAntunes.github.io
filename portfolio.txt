@@ -1,0 +1,11 @@
+header (summary/index)
+fill (about me)
+skills (area/speciffics)
+formation
+projects
+contact
+social media
+
+portability between devices
+portability between browsers
+scaling

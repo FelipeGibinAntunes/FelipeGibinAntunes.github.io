@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viviane Gibin | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="splide.min.css">
+    <script src="script.js"></script>
+    <script src="splide.min.js"></script>
+    <script>
+    document.addEventListener( 'DOMContentLoaded', function () {
+	new Splide( '#image-slider', {
+	type   : 'loop',
+	perPage: 4,
+    autoplay: true,
+    interval: 3000,
+    pauseOnFocus: false,
+    padding: {
+		right: '8rem',
+		left : '8rem',},
+	focus  : 'center',}).mount();});
+    </script>
+</head>
+<body>
+    <div id="gradient">
+        <div class="head">
+            <h1>VG</h1>
+            <a class="link" href="index.html">HOME</a>
+            <a class="link" href="about.html">ABOUT</a>
+            <a class="link" href="gallery.html">GALLERY</a>
+            <a class="link" href="contact.html">CONTACT</a>
+        </div>
+        <h3>Viviane Gibin</h3>
+        <h2>"A arte existe porque a vida não basta." G, Ferreira</h2>
+        <div class="vl"></div>
+        <a href="about.html">
+            <div id="frame" style="top: 240px; margin-left: 60%;">
+                <img id="profile" src="pfp.jpg" alt="profile">
+            </div>
+        </a>
+        <div id="image-slider" class="splide" style="margin-top: 400px; margin-left: 10%; width: 80%;">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <a href="gallery.html">
+                            <img class="preview" src="images/img (1).jpg" style="width: auto; height: 260px; margin: 30px;">
+                        </a>
+                    </li>
+                    <li class="splide__slide">
+                        <a href="gallery.html">
+                            <img class="preview" src="images/img (2).jpg"style="width: auto; height: 260px; margin: 30px;">
+                        </a>
+                    </li>
+                    <li class="splide__slide">
+                        <a href="gallery.html">
+                            <img class="preview" src="images/img (3).jpg"style="width: auto; height: 260px; margin: 30px;">
+                        </a>
+                    </li>
+                    <li class="splide__slide">
+                        <a href="gallery.html">
+                            <img class="preview" src="images/img (4).jpg"style="width: auto; height: 260px; margin: 30px;">
+                        </a>
+                    </li>
+                    <li class="splide__slide">
+                        <a href="gallery.html">
+                            <img class="preview" src="images/img (5).jpg"style="width: auto; height: 260px; margin: 30px;">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <a class="icon" href="https://www.instagram.com/vivianegibin/">
+                <img src="insta.png" width="30px" height="30px">
+            </a>
+            <a class="icon" href="https://www.facebook.com/viviane.gibin.1/">
+                <img src="face.png" width="30px" height="30px">
+            </a>
+            <a class="icon" href="https://www.linkedin.com/in/viviane-gibin-22751799/">
+                <img src="link.png" width="30px" height="30px">
+            </a>
+            <p class="bottom">Copyright© VGibin® All rights reserved.</p>
+        </div>
+    </div>
+    
+
+    
+</body>
+</html>
